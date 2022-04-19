@@ -1,7 +1,12 @@
 <template>
   <div
     class="cards"
-    style="display: flex; flex-direction: column; justify-content: center"
+    style="
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 20px;
+    "
   >
     <h3
       style="
@@ -163,7 +168,6 @@ export default {
   box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
     0px 0px 1px rgba(0, 0, 0, 0.04);
   border-radius: 28px;
-  margin-left: 45px;
 }
 .carousel__content {
   display: flex;
