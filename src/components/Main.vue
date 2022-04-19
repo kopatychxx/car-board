@@ -7,6 +7,7 @@
     <div class="right">
       <Goals />
       <Statistic />
+      <NewTransaction />
     </div>
   </div>
 </template>
@@ -16,10 +17,11 @@ import CardCarousels from "@/components/CardCarousels";
 import History from "@/components/History";
 import Goals from "@/components/Goals";
 import Statistic from "@/components/Statistic";
+import NewTransaction from "@/components/NewTransaction";
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Main",
-  components: { Statistic, Goals, History, CardCarousels },
+  components: { NewTransaction, Statistic, Goals, History, CardCarousels },
 };
 </script>
 
