@@ -3,10 +3,7 @@
     <Menu />
     <div class="main" style="width: 100%">
       <Header />
-      <div class="left" style="margin-left: 45px">
-        <CardCarousels />
-        <History />
-      </div>
+      <Main />
     </div>
   </v-app>
 </template>
@@ -14,12 +11,11 @@
 <script>
 import Menu from "@/components/Menu";
 import Header from "@/components/Header";
-import CardCarousels from "@/components/CardCarousels";
-import History from "@/components/History";
+import Main from "@/components/Main";
 
 export default {
   name: "App",
-  components: { History, CardCarousels, Header, Menu },
+  components: { Main, Header, Menu },
   data: () => ({
     //
   }),
